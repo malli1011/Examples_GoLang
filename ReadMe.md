@@ -17,34 +17,34 @@
 
 > go get -u github.com/golang/lint/golint
 > 
-##reports poor coding style
+*reports poor coding style*
 > golint ./...
 > 
 
-###gofmt: formats go code
+*gofmt: formats go code*
 >gofmt ./...
 
-###go vet: reports suspicious constructs
+*go vet: reports suspicious constructs*
 >go vet ./...
 
-###Run all test in a package say codepractice
+*Run all test in a package say codepractice*
 
 >cd codepractice 
 
 > go test
 
-###Run all the tests under a folder 
+*Run all the tests under a folder* 
 > go test ./...
 
-###Run documentation locally
+#Run documentation locally#
 >godoc -http=:8080
 
-### go commands help 
+*go commands help *
 >go help test
 > go help testflage
 > go help tool
 
-###Code test coverage on current package 
+*Code test coverage on current package *
 >go test -cover 
 
 **To dump the coverge output to file**
@@ -54,7 +54,7 @@
 > go tool cover -html c.out
 > go tool cover -help
 
-##Remember to bet
+*Remember to bet*
 - Benchmark
 - Example
 - Test
