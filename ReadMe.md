@@ -13,11 +13,11 @@
 
 
 *GoLint*
-### Install golint, it installs gofmt and go vet also
+**Install golint, it installs gofmt and go vet also**
 
 > go get -u github.com/golang/lint/golint
 > 
-### reports poor coding style
+##reports poor coding style
 > golint ./...
 > 
 
@@ -27,7 +27,7 @@
 ###go vet: reports suspicious constructs
 >go vet ./...
 
-###run all test in a package say codepractice
+###Run all test in a package say codepractice
 
 >cd codepractice 
 
@@ -44,7 +44,7 @@
 > go help testflage
 > go help tool
 
-### code test coverage on current package 
+###Code test coverage on current package 
 >go test -cover 
 
 **To dump the coverge output to file**
