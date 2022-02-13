@@ -1,4 +1,4 @@
-#Go Commands:
+*Go Commands:*
 **List all environment variables**
 >go env  
 
@@ -12,7 +12,7 @@
 >go ../...
 
 
-##GoLint
+*GoLint*
 ### Install golint, it installs gofmt and go vet also
 
 > go get -u github.com/golang/lint/golint
