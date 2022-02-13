@@ -1,4 +1,4 @@
-#Go Commands:
+# Go Commands:
 **List all environment variables**
 >go env  
 
@@ -12,7 +12,7 @@
 >go ../...
 
 
-##GoLint
+## GoLint
 ### Install golint, it installs gofmt and go vet also
 
 > go get -u github.com/golang/lint/golint
@@ -21,22 +21,22 @@
 > golint ./...
 > 
 
-###gofmt: formats go code
+### gofmt: formats go code
 >gofmt ./...
 
-###go vet: reports suspicious constructs
+### go vet: reports suspicious constructs
 >go vet ./...
 
-###run all test in a package say codepractice
+### run all test in a package say codepractice
 
 >cd codepractice 
 
 > go test
 
-###Run all the tests under a folder 
+### Run all the tests under a folder 
 > go test ./...
 
-###Run documentation locally
+### Run documentation locally
 >godoc -http=:8080
 
 ### go commands help 
@@ -54,7 +54,7 @@
 > go tool cover -html c.out
 > go tool cover -help
 
-##Remember to bet
+## Remember to bet
 - Benchmark
 - Example
 - Test
